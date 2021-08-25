@@ -1,0 +1,138 @@
+body {
+  width: 100%;
+  background: linear-gradient(0.83deg, #E8F3F9 3.75%, #F2FCFE 77.14%);
+}
+
+body header {
+  margin: 0 auto;
+}
+
+body header .header-content {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+body header .header-logo {
+  width: 10%;
+}
+
+body header .schoolname {
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 30px;
+  font-size: 42px;
+  font-weight: 600px;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Teko', sans-serif;
+}
+
+body header .tel {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 50px;
+  margin-left: 100px;
+}
+
+body header .time {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: -200px;
+}
+
+body header .header-nav {
+  text-align: center;
+}
+
+body header .header-nav .header-nav-content {
+  display: flex;
+  justify-content: flex-end;
+  width: 90%;
+  margin-top: -30px;
+}
+
+body header .header-nav .header-nav-content li {
+  list-style-type: none;
+}
+
+body header .header-nav .header-nav-content li a {
+  text-decoration: none;
+  padding-left: 50px;
+  color: black;
+  font-weight: bold;
+}
+
+body header .header-nav .header-nav-content li a:hover {
+  color: violet;
+}
+
+body header .header-nav .path {
+  width: 100%;
+}
+
+body .contact-ttl {
+  text-align: center;
+  padding-top: 80px;
+}
+
+body .contact-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 60px;
+}
+
+body .contact-wrapper h2 {
+  font-size: 24px;
+  padding-bottom: 60px;
+  line-height: 2;
+}
+
+body .contact-wrapper p {
+  font-size: 18px;
+  line-height: 2;
+  padding: 40px 0 30px;
+}
+
+body .form-contents {
+  padding-top: 40px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+body .form-contents form {
+  margin: 0 auto;
+  width: 280px;
+  padding-top: 20px;
+}
+
+body .form-contents form input {
+  border-radius: 20px;
+  width: 320px;
+}
+
+body .form-contents form span {
+  font-size: 8px;
+  color: red;
+}
+
+body .form-contents form label {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+body .form-contents .button {
+  padding: 10px 120px;
+  border-radius: 30px;
+  background-color: #3EC6FF;
+  box-shadow: 0 0 2px #3EC6FF;
+  margin: 30px 500px;
+  cursor: pointer;
+  margin-bottom: 120px;
+}
+
+body footer-img {
+  width: 100%;
+}

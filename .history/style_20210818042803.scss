@@ -1,0 +1,29 @@
+body {
+width: 100%;
+background: linear-gradient(0.83deg, #E8F3F9 3.75%, #F2FCFE 77.14%);
+.pack{
+  opacity: 0.1;
+}
+}
+header {
+  width: 90%;
+  margin: 0 auto;
+   .header-logo {
+     width: 10%;
+   }
+   .schoolname {
+     font-size: 36px;
+     font-weight: 600px;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-family: 'Teko', sans-serif;
+    }
+    .tel {
+      font-size: 18px;
+      font-weight: bold;
+    }
+    .header-nav {
+      .header-nav-content {
+        display: inline-block;
+      }
+    }
+}

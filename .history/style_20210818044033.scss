@@ -1,0 +1,45 @@
+body {
+width: 100%;
+background: linear-gradient(0.83deg, #E8F3F9 3.75%, #F2FCFE 77.14%);
+background-image: url(img/確認よう.png);
+}
+header {
+  width: 90%;
+  margin: 0 auto;
+  .header-content {
+    display: flex;
+    text-align: right;
+  }
+   .header-logo {
+     width: 10%;
+   }
+   .schoolname {
+     text-align: center;
+     padding-left: 100px;
+     padding-top: 30px;
+     font-size: 36px;
+     font-weight: 600px;
+     font-family: 'Noto Sans JP', sans-serif;
+     font-family: 'Teko', sans-serif;
+    }
+    .tel {
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 50px;
+    }
+    .header-nav {
+      text-align: right;
+      .header-nav-content {
+        display: flex;
+        width: 90%;
+        margin:  0 auto;
+        li {
+          text-decoration: none;
+          list-style: none;
+          padding-left: 50px;
+        }
+      }
+
+    }
+}

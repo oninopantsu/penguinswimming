@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/contact.scss">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=Teko:wght@300&display=swap"
+    rel="stylesheet">
+  <title>ペンギンスイミングスクール</title>
+</head>
+
+  <!-- header -->
+  <header>
+    <div class="header-content">
+      <div class="header-logo">
+        <a href="index.html"><img src="img/psslogo.png" alt="スクールロゴ"></a></div>
+      <h1 class="schoolname">ペンギンスイミングスクール</h1>
+      <p class="tel">TEL 082-000-0000</p>
+    </div>
+    <div class="header-nav">
+      <p class="time">営業時間　10:00~18:00</p>
+      <ul class="header-nav-content">
+        <li><a href="corse.html">コース</a> </li>
+        <li><a href="price.html">料金案内</a></li>
+        <li><a href="contact.html">お問い合せ</a></li>
+      </ul>
+      <img src="img/path.png" alt="波線" 　class="path">
+    </div>
+  </header>
+  <!-- end -->
+<body>
+  
+  <h1 class="contact-ttl">
+      申し込みはこちらから</h1>
+  
+    <div class="contact-wrapper">
+
+      <h2>見学や体験についてもこちらから
+        <br>
+        お申し込みをお願い致します。</h2>
+    
+        <p>下記ボタンから内容を選択してください。
+        <br>
+        また体験申し込みと入会申し込みの方は
+        <br>
+        希望日時の選択をお願い致します。
+      </p>
+      <input type="checkbox" name="contact">
+      <label for="contact">体験申し込み</label>
+      <input type="checkbox" name="contact" >
+      <label for="contact">入会申し込み</label>
+      <input type="checkbox" name="contact" >
+      <label for="contact">お問い合わせ</label>
+    </div>
+
+    <div class="form-flex">
+        <form action="contact.html" method="post">
+          <label>
+            お名前（保護者様）<span>※必須</span>
+            <input type="text" name="name">
+          </label>
+        </form>
+      <form action="contact.html" method="post">
+        <label>
+          フリガナ<span>※必須</span>
+          <input type="text" name="name">
+        </label>
+
+      </form>
+
+      <form action="contact.html" method="post">
+        <label>
+          お名前 (お子様)
+          <input type="text" name="name">
+          <label >年齢</label>
+          <input type="number" name="birth">
+        </label>
+      </form>
+      <form action="contact.html" method="post">
+        <label>
+          メールアドレス(※必須)
+          <input type="email" name="email">
+        </label>
+      </form>
+      <form action="contact.html" method="post">
+        <label>
+          電話番号(※必須)
+          <input type="tel" name="tel">
+        </label>
+      </form>
+      fo
+        <label>
+          希望日時
+          <input type="date" name="tel">
+        </label>
+        <form action="contact.html" method="post">
+          <label>
+            <select name="コース名">
+              <option value="ロイヤルペンギン">ロイヤルペンギン(0~2才)
+              </option> 
+              <option value="キガシラペンギン">キガシラペンギン(3才)</option> 
+              <option value="キングペンギン">キングペンギン(4才)</option>
+              <option value=" エンペラーペンギン">エンペラーペンギン(5才)</option>
+            </select>
+            
+          </label>
+          <form action="submit" method="post">
+            <label for="備考欄">
+              備考欄
+              <textarea name="submit" cols="30" rows="10"></textarea>
+              
+            </label>
+          </form>
+          
+        </form>
+        
+      </form>
+    </div>
+</body>
+</html>

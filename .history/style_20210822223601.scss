@@ -1,0 +1,327 @@
+$ttlcr: rgba(5, 124, 191, 1);
+
+body {
+  width: 100%;
+  background: linear-gradient(0.83deg, #E8F3F9 3.75%, #F2FCFE 77.14%);
+header {
+  margin: 0 auto;
+  .header-content {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    
+  }
+  .header-logo {
+    width: 10%;
+  }
+  .schoolname {
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 42px;
+    font-weight: 600px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Teko', sans-serif;
+  }
+  .tel {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 50px;
+    margin-left: 100px;
+  }
+  .time{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: -200px;
+    }
+    .header-nav {
+    text-align: center;
+      .header-nav-content {
+        display: flex;
+        justify-content: flex-end;
+        width: 90%;
+        margin-top: -30px;
+
+        li {
+          list-style-type: none;
+          a{
+            text-decoration: none;
+            padding-left: 50px;
+            color: black;
+            font-weight: bold;
+            &:hover {
+              color: violet;
+          }
+          }
+        }
+      }
+      .path {
+        width: 100%;
+      }
+    }
+}
+
+// header end
+
+// スクールからのメッセージ
+h2 {
+  font-size: 32px;
+  color: #45B5F4;
+  padding-left: 130px;
+  padding-top: 40px;
+
+}
+
+.top-contents{
+  display: flex;
+  width: 80%;
+  margin: 30px auto;
+  .first-eyecatch {
+    width:60%;
+    display: flex;
+    
+    
+    .f-contents--txt {
+      font-size: 22px;
+      font-weight: bold;
+      line-height: 2;
+      text-align: center;
+      i {
+        font-size: 32px; 
+      }
+    }
+    .f-contents--img {
+      padding-top: 180px;
+      width: 20%;
+    }
+    
+  }
+}
+
+// メッセージend
+
+// news
+  .news {
+    background-color: rgba(231, 210, 20, 0.5);
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
+    width: 30%;
+    height: 16em;
+    padding-top: 20px;
+    .news--ttl{
+      text-align: center;
+      display: block;
+      display: flex;
+      padding-left: 60px;
+        .news--img{
+          width: 10%;
+        }
+      }
+    }
+
+    .news--contents {
+      a {
+        font-size: 12px;
+        padding: 10px;
+        text-decoration:none ;
+        color: black;
+        cursor: pointer;
+        &:hover{
+          color: #ffff;
+        }
+      }
+    }
+  //eyecatch//
+  
+  .charm-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    h3 {
+      font-size: 32px;
+      color: $ttlcr;
+      border-bottom: 2px solid rgba(5, 124, 191, 1);
+      width: 420px;
+      text-align: center;
+      margin: 50px auto 50px;
+    }
+    .charm-contents {
+      display: flex;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      justify-content: space-around;
+      .charm-img {
+        width: 80%;
+        .charm-img--shadow {
+          box-shadow: 0 0 10px rgba(21, 158, 231, 0.685);
+         border-radius: 20px;
+         padding-bottom: 0;
+         width: 80%;
+      }
+      }
+      .charm-txt {
+        text-align: center;
+        border: solid 1px black;
+        border-radius: 50%;
+        width: 60%;
+        padding-top: 20px;
+        .bgcr{
+          border-radius: 50%;
+          background-color: #8DD5FD;
+          
+        }
+        p {
+          padding-top: 40px;
+          font-size: 18px;
+          font-weight: bold;
+        }
+      }
+    }
+    }
+    .corse-wrapper {
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .corse-nav {
+      padding-top: 80px;
+      font-size: 32px;
+      color: $ttlcr;
+      border-bottom: 2px solid rgba(5, 124, 191, 1);
+      width: 180px;
+      text-align: center;
+      margin: 0 auto;
+    }
+    .corse-txt {
+      font-size: 32px;
+      padding-top: 32px;
+      text-align: center;
+      margin: 50px auto 0;
+      
+    }
+    img{
+      margin: 0 auto;
+      padding-bottom: 80px;
+    }
+    .corse-contents{
+      display: flex;
+      justify-content: space-evenly;
+    }
+  .corse-list {
+    ul {
+      li{
+        color: #4F84EC;
+        font-size: 18px;
+        letter-spacing: 2;
+        line-height: 3;
+        font-weight: bolder;
+      }
+    }
+      button {
+        width: 180px;
+        margin-left: 20px;
+        padding: 10px;
+        border-radius: 40px;
+        background: linear-gradient(180deg, #4596F4 0%, rgba(69, 181, 244, 0) 100%);
+        
+      }
+        a.corse-btn {
+          color: black;
+          font-size: 16px;
+          font-weight: bold;
+          text-decoration: none;
+          
+        }
+      }
+      .corse-img {
+        position: relative;
+        z-index: 2;
+        padding-bottom: 80px;
+      }
+      .image-txt {
+        background-color: #ffff;
+        width: 240px;
+        border-radius: 20px;
+        padding-left: 50px;
+        position: absolute;
+        top: 120px;
+        left: 30px;
+        p{
+          line-height: 2;
+          padding: 10px;
+          font-size: 18px;
+        }
+      }
+    }
+      //corse end 
+
+      .contact-wrapper {
+      width: 100%;
+      background-image: url(img/contact.png);
+      background: cover;
+      height: 180px;
+      p{
+        padding-top: 90px;
+      }
+      a{
+        padding-left: 180px;
+        font-size: 28px;
+        letter-spacing: 8px;
+        color: #ffff;
+        text-decoration: none;
+        padding-top: 200px;
+      }
+   }
+
+   footer {
+     width: 90%;
+     margin: 0 auto;
+     padding-bottom: 80px;
+     .footer-wrapper {
+       display: flex;
+       justify-content: space-around;
+       .footer-ttl {
+         font-size: 32px;
+         font-weight: bold;
+         padding-top: 60px;
+       }
+       .footer-tel{
+         display: flex;
+         padding-top: 20px;
+         p{
+           padding-top: 30px;
+           font-weight: bold;
+           font-size: 24px;
+         }
+
+         img {
+           width: 120px;
+           padding-right: 10px;
+         }
+       }
+     }
+     .guide {
+       text-align: center;
+       border: 1px solid #bbbb;
+       border-radius: 32px;
+       box-shadow: 0 0 5px #8DD5FD;
+       .guide-txt {
+         font-size: 18px;
+         line-height: 3;
+       }
+     }
+     .iframe {
+       position: relative;
+       width: 50%;
+       iframe {
+         padding-top: 30px;
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+       }
+     }
+   }
+
+
